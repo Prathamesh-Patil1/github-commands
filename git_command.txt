@@ -8,3 +8,8 @@ git commit -m "added testing files"       // tracking the file
 rm filename                               //deleting the file
 git restore filename                      //restoring the file
 clear                                     //to clear the terminal
+process-
+git status
+git add .
+git commit -m "Added new file"
+git push origin master
