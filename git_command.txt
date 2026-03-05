@@ -9,11 +9,15 @@ rm filename                               //deleting the file
 git restore filename                      //restoring the file
 clear                                     //to clear the terminal
 
-//steps for gothub repo-
+//steps for github repo-
+git init
+git add "file name"
 git status
 git add .
 git commit -m "Added new file"
-git push origin master
+git remote add origin https://github.com/Prathamesh-Patil1/practice-sheet.git
+git branch -m main
+git push origin main
 
 //steps fro updating file-
 git add .
